@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 5000 ;
 
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://blogging-website-gray-kappa.vercel.app",
     credentials:true,
     methods:["GET","POST","PUT","PATCH","DELETE"],
     exposedHeaders:["Authorization"],
